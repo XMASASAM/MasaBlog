@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on まさお（マサ）の日記</title>
-    <link>http://localhost:14440/tags/</link>
+    <link>http://localhost:4059/tags/</link>
     <description>Recent content in Tags on まさお（マサ）の日記</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 22 Sep 2024 15:07:11 +0900</lastBuildDate>
-    <atom:link href="http://localhost:14440/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4059/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43;</title>
-      <link>http://localhost:14440/tags/c&#43;&#43;/</link>
+      <link>http://localhost:4059/tags/c&#43;&#43;/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:14440/tags/c&#43;&#43;/</guid>
+      <guid>http://localhost:4059/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>FFmpeg</title>
-      <link>http://localhost:14440/tags/ffmpeg/</link>
+      <link>http://localhost:4059/tags/ffmpeg/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:14440/tags/ffmpeg/</guid>
+      <guid>http://localhost:4059/tags/ffmpeg/</guid>
       <description></description>
     </item>
     <item>
       <title>VisualStudio</title>
-      <link>http://localhost:14440/tags/visualstudio/</link>
+      <link>http://localhost:4059/tags/visualstudio/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:14440/tags/visualstudio/</guid>
+      <guid>http://localhost:4059/tags/visualstudio/</guid>
       <description></description>
     </item>
     <item>
-      <title>Win11</title>
-      <link>http://localhost:14440/tags/win11/</link>
+      <title>Windows</title>
+      <link>http://localhost:4059/tags/windows/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:14440/tags/win11/</guid>
+      <guid>http://localhost:4059/tags/windows/</guid>
       <description></description>
     </item>
   </channel>

@@ -13,11 +13,19 @@ tags = ['FFmpeg','VisualStudio','Windows','C++']
 # 手順
 ## 1.「ffmpeg-master-latest-win64-lgpl-shared.zip」をダウンロードする
 ['FFmpegの公式サイト'](https://www.ffmpeg.org/)の['Download FFmpeg'](https://www.ffmpeg.org/download.html#build-windows)へ行くと下図の様なページが表示される。
+
+
 !['dd'](df.png)
+
+
 Windowsのマークをクリックし、「Windows builds by BtbN」 を選択する。
 
 すると、下図のようなページが表示される。
+
+
 !['ddee'](gh.png)
+
+
 「Show all 50 assets」をクリックする。
 するとたくさんのファイルが表示される。その中の
 「ffmpeg-master-latest-win64-lgpl-shared.zip」をクリックする。
@@ -65,11 +73,16 @@ VisualStudioを起動し、C++の「コンソールアプリ」のテンプレ�
 
 プロジェクトの作成後、下図の赤枠の
 「FFmpeg_Test」を右クリックし、コンテキストメニュー欄の「プロパティ」をクリックする。
+
+
 ![](pro1.png)
+
 
 「FFmpeg_Testのプロパティページ」が表示された後、下図の赤枠の「C/C++」をクリックし、「追加のインクルードディレクトリ」をクリックする。
 
+
 ![](pro2.png)
+
 
 「追加のインクルードディレクトリ」へ下記を入力する。
 ```
@@ -77,7 +90,10 @@ $(FFMPEG_PATH)\include
 ```
 
 次に下図の赤枠の「リンカー」をクリックし、「追加のライブラリディレクトリ」をクリックする。
+
+
 ![](pro3.png)
+
 
 「追加のライブラリディレクトリ」へ下記を入力する。
 ```
@@ -87,13 +103,17 @@ $(FFMPEG_PATH)\lib
 
 
 次に下図の赤枠の「入力」をクリックし、「追加の依存ファイル」をクリックする。
+
+
 ![](pro4.png)
+
+
 「追加の依存ファイル」へ下記を入力する。
 ```
 avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)
 ```
 
-以上の設定が完了した後は「FFmpeg_Testのプロパティページ」の下部にある「適応(A)」をクリックし、設定を適応させる。
+以上の設定が完了した後は「FFmpeg_Testのプロパティページ」の下部にある「適用(A)」をクリックし、設定を適用させる。
 
 ## 4.テストプログラムを実行する
 「FFmpeg_Test」プロジェクト内の「ソースファイル」内にある「FFmpeg_Test.cpp」へ下記を入力する。
@@ -113,7 +133,7 @@ int main(void) {
 ```{name="実行結果"}
 FFmpeg API
 ```
-と表示されていたらOK。問題なくFFmpegAPIが利用できています。もしエラーが発生した場合はパスが通っているか、プロジェクトのプロパティを正しく設定しているか、などを確認してみてください。
+と表示されていたらOK。問題なくFFmpegAPIを利用できています。もしエラーが発生した場合はパスが通っているか、プロジェクトのプロパティを正しく設定しているか、などを確認してみてください。
 
 ## 5.使いこなしていくには
 [公式の参考プログラム](https://www.ffmpeg.org/doxygen/trunk/examples.html)を実行したり、ネットでいろいろな記事を見てFFmpegAPIを使いこなしていきましょう。公式のドキュメントがやはり参考になります。 

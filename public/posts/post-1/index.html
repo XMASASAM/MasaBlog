@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja-jp">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=14440&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4059&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -31,10 +31,10 @@
     
 
     
-      <link rel="canonical" href="http://localhost:14440/posts/post-1/">
+      <link rel="canonical" href="http://localhost:4059/posts/post-1/">
     
 
-    <meta property="og:url" content="http://localhost:14440/posts/post-1/">
+    <meta property="og:url" content="http://localhost:4059/posts/post-1/">
   <meta property="og:site_name" content="まさお（マサ）の日記">
   <meta property="og:title" content="FFmpegAPIをVisualStudioで利用する方法">
   <meta property="og:description" content="最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。">
@@ -137,12 +137,12 @@
 </ul>
 <h1 id="手順">手順</h1>
 <h2 id="1ffmpeg-master-latest-win64-lgpl-sharedzipをダウンロードする">1.「ffmpeg-master-latest-win64-lgpl-shared.zip」をダウンロードする</h2>
-<p><a href="https://www.ffmpeg.org/" target="_blank">&lsquo;FFmpegの公式サイト&rsquo;</a>の<a href="https://www.ffmpeg.org/download.html#build-windows" target="_blank">&lsquo;Download FFmpeg&rsquo;</a>へ行くと下図の様なページが表示される。
-<img src="df.png" alt="&lsquo;dd&rsquo;">
-Windowsのマークをクリックし、「Windows builds by BtbN」 を選択する。</p>
-<p>すると、下図のようなページが表示される。
-<img src="gh.png" alt="&lsquo;ddee&rsquo;">
-「Show all 50 assets」をクリックする。
+<p><a href="https://www.ffmpeg.org/" target="_blank">&lsquo;FFmpegの公式サイト&rsquo;</a>の<a href="https://www.ffmpeg.org/download.html#build-windows" target="_blank">&lsquo;Download FFmpeg&rsquo;</a>へ行くと下図の様なページが表示される。</p>
+<p><img src="df.png" alt="&lsquo;dd&rsquo;"></p>
+<p>Windowsのマークをクリックし、「Windows builds by BtbN」 を選択する。</p>
+<p>すると、下図のようなページが表示される。</p>
+<p><img src="gh.png" alt="&lsquo;ddee&rsquo;"></p>
+<p>「Show all 50 assets」をクリックする。
 するとたくさんのファイルが表示される。その中の
 「ffmpeg-master-latest-win64-lgpl-shared.zip」をクリックする。</p>
 <p>すると「ffmpeg-master-latest-win64-lgpl-shared.zip」がダウンロードされる。</p>
@@ -180,27 +180,27 @@ Windowsのマークをクリックし、「Windows builds by BtbN」 を選択�
 プロジェクト名は何でもいいです。今回自分は「FFmpeg_Test」とした。</p>
 <h2 id="4-プロジェクトのプロパティを設定する">4. プロジェクトのプロパティを設定する</h2>
 <p>プロジェクトの作成後、下図の赤枠の
-「FFmpeg_Test」を右クリックし、コンテキストメニュー欄の「プロパティ」をクリックする。
-<img src="pro1.png" alt=""></p>
+「FFmpeg_Test」を右クリックし、コンテキストメニュー欄の「プロパティ」をクリックする。</p>
+<p><img src="pro1.png" alt=""></p>
 <p>「FFmpeg_Testのプロパティページ」が表示された後、下図の赤枠の「C/C++」をクリックし、「追加のインクルードディレクトリ」をクリックする。</p>
 <p><img src="pro2.png" alt=""></p>
 <p>「追加のインクルードディレクトリ」へ下記を入力する。</p>
 <div>
     <div class="codeblock--content"><pre tabindex="0"><code>$(FFMPEG_PATH)\include</code></pre>
     </div>
-  </div><p>次に下図の赤枠の「リンカー」をクリックし、「追加のライブラリディレクトリ」をクリックする。
-<img src="pro3.png" alt=""></p>
+  </div><p>次に下図の赤枠の「リンカー」をクリックし、「追加のライブラリディレクトリ」をクリックする。</p>
+<p><img src="pro3.png" alt=""></p>
 <p>「追加のライブラリディレクトリ」へ下記を入力する。</p>
 <div>
     <div class="codeblock--content"><pre tabindex="0"><code>$(FFMPEG_PATH)\lib</code></pre>
     </div>
-  </div><p>次に下図の赤枠の「入力」をクリックし、「追加の依存ファイル」をクリックする。
-<img src="pro4.png" alt="">
-「追加の依存ファイル」へ下記を入力する。</p>
+  </div><p>次に下図の赤枠の「入力」をクリックし、「追加の依存ファイル」をクリックする。</p>
+<p><img src="pro4.png" alt=""></p>
+<p>「追加の依存ファイル」へ下記を入力する。</p>
 <div>
     <div class="codeblock--content"><pre tabindex="0"><code>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</code></pre>
     </div>
-  </div><p>以上の設定が完了した後は「FFmpeg_Testのプロパティページ」の下部にある「適応(A)」をクリックし、設定を適応させる。</p>
+  </div><p>以上の設定が完了した後は「FFmpeg_Testのプロパティページ」の下部にある「適用(A)」をクリックし、設定を適用させる。</p>
 <h2 id="4テストプログラムを実行する">4.テストプログラムを実行する</h2>
 <p>「FFmpeg_Test」プロジェクト内の「ソースファイル」内にある「FFmpeg_Test.cpp」へ下記を入力する。</p>
 <div><div class="codeblock--name">FFmpeg_Test.cpp</div>
@@ -219,7 +219,7 @@ Windowsのマークをクリックし、「Windows builds by BtbN」 を選択�
 <div><div class="codeblock--name">実行結果</div>
     <div class="codeblock--content"><pre tabindex="0"><code>FFmpeg API</code></pre>
     </div>
-  </div><p>と表示されていたらOK。問題なくFFmpegAPIが利用できています。もしエラーが発生した場合はパスが通っているか、プロジェクトのプロパティを正しく設定しているか、などを確認してみてください。</p>
+  </div><p>と表示されていたらOK。問題なくFFmpegAPIを利用できています。もしエラーが発生した場合はパスが通っているか、プロジェクトのプロパティを正しく設定しているか、などを確認してみてください。</p>
 <h2 id="5使いこなしていくには">5.使いこなしていくには</h2>
 <p><a href="https://www.ffmpeg.org/doxygen/trunk/examples.html" target="_blank">公式の参考プログラム</a>を実行したり、ネットでいろいろな記事を見てFFmpegAPIを使いこなしていきましょう。公式のドキュメントがやはり参考になります。</p><ul class="pa0">
   
@@ -258,7 +258,7 @@ Windowsのマークをクリックし、「Windows builds by BtbN」 を選択�
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:14440/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:4059/" >
     &copy;  まさお（マサ）の日記 2024 
   </a>
     <div>
