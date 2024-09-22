@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:9305/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on まさお（マサ）の日記</title>
+    <link>http://localhost:14440/posts/</link>
+    <description>Recent content in Posts on まさお（マサ）の日記</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>ja-jp</language>
     <lastBuildDate>Sun, 22 Sep 2024 15:07:11 +0900</lastBuildDate>
-    <atom:link href="http://localhost:9305/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:14440/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:9305/posts/my-first-post/</link>
+      <title>FFmpegAPIをVisualStudioで利用する方法</title>
+      <link>http://localhost:14440/posts/post-1/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:9305/posts/my-first-post/</guid>
-      <description></description>
+      <guid>http://localhost:14440/posts/post-1/</guid>
+      <description>&lt;p&gt;最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

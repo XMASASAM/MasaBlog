@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hhh on まさお（マサ）の日記</title>
+        <link>http://localhost:12804/tags/hhh/</link>
+        <description>Recent content in Hhh on まさお（マサ）の日記</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <managingEditor>jsmith@example.org (John Smith)</managingEditor>
+        <webMaster>jsmith@example.org (John Smith)</webMaster>
+        <lastBuildDate>Sun, 22 Sep 2024 17:47:02 +0900</lastBuildDate><atom:link href="http://localhost:12804/tags/hhh/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>N0922</title>
+        <link>http://localhost:12804/post/n0922/</link>
+        <pubDate>Sun, 22 Sep 2024 17:47:02 +0900</pubDate>
+        <author>jsmith@example.org (John Smith)</author>
+        <guid>http://localhost:12804/post/n0922/</guid>
+        <description>&lt;p&gt;bbbbbb&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

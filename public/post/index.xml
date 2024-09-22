@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on まさお（マサ）の日記</title>
+    <link>http://localhost:13077/post/</link>
+    <description>Recent content in Posts on まさお（マサ）の日記</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 22 Sep 2024 17:48:57 +0900</lastBuildDate>
+    <atom:link href="http://localhost:13077/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>N0925</title>
+      <link>http://localhost:13077/post/n0925/</link>
+      <pubDate>Sun, 22 Sep 2024 17:48:57 +0900</pubDate>
+      <guid>http://localhost:13077/post/n0925/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>N0924</title>
+      <link>http://localhost:13077/post/n0924/</link>
+      <pubDate>Sun, 22 Sep 2024 17:48:53 +0900</pubDate>
+      <guid>http://localhost:13077/post/n0924/</guid>
+      <description>&lt;p&gt;aaaaa&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>N0923</title>
+      <link>http://localhost:13077/post/n0923/</link>
+      <pubDate>Sun, 22 Sep 2024 17:48:48 +0900</pubDate>
+      <guid>http://localhost:13077/post/n0923/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>最初の投稿</title>
+      <link>http://localhost:13077/post/n0922/</link>
+      <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
+      <guid>http://localhost:13077/post/n0922/</guid>
+      <description>&lt;h2 id=&#34;introduction-日本語&#34;&gt;Introduction 日本語&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&#xA;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

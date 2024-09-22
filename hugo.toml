@@ -1,4 +1,6 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'ja-jp'
+title = 'まさお（マサ）の日記'
 theme = 'ananke'
+paginate = 5
+DefaultContentLanguage = "ja"

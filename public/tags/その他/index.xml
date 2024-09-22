@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>その他 on まさお（マサ）の日記</title>
+    <link>http://localhost:13145/tags/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+    <description>Recent content in その他 on まさお（マサ）の日記</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 22 Sep 2024 15:07:11 +0900</lastBuildDate>
+    <atom:link href="http://localhost:13145/tags/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最初の投稿</title>
+      <link>http://localhost:13145/posts/my-first-post/</link>
+      <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
+      <guid>http://localhost:13145/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;introduction-日本語dddd&#34;&gt;Introduction 日本語dddd&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&#xA;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

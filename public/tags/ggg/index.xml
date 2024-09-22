@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Ggg on まさお（マサ）の日記</title>
+        <link>http://localhost:12804/tags/ggg/</link>
+        <description>Recent content in Ggg on まさお（マサ）の日記</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <managingEditor>jsmith@example.org (John Smith)</managingEditor>
+        <webMaster>jsmith@example.org (John Smith)</webMaster><atom:link href="http://localhost:12804/tags/ggg/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>

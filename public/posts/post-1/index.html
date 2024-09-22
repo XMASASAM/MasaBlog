@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=14440&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>FFmpegAPIをVisualStudioで利用する方法 | まさお（マサ）の日記</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。">
+    <meta name="generator" content="Hugo 0.134.3">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:14440/posts/post-1/">
+    
+
+    <meta property="og:url" content="http://localhost:14440/posts/post-1/">
+  <meta property="og:site_name" content="まさお（マサ）の日記">
+  <meta property="og:title" content="FFmpegAPIをVisualStudioで利用する方法">
+  <meta property="og:description" content="最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-22T15:07:11+09:00">
+    <meta property="article:modified_time" content="2024-09-22T15:07:11+09:00">
+    <meta property="article:tag" content="FFmpeg">
+    <meta property="article:tag" content="VisualStudio">
+    <meta property="article:tag" content="Windows">
+    <meta property="article:tag" content="C&#43;&#43;">
+
+  <meta itemprop="name" content="FFmpegAPIをVisualStudioで利用する方法">
+  <meta itemprop="description" content="最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。">
+  <meta itemprop="datePublished" content="2024-09-22T15:07:11+09:00">
+  <meta itemprop="dateModified" content="2024-09-22T15:07:11+09:00">
+  <meta itemprop="wordCount" content="88">
+  <meta itemprop="keywords" content="FFmpeg,VisualStudio,Windows,C&#43;&#43;">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="FFmpegAPIをVisualStudioで利用する方法">
+  <meta name="twitter:description" content="最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        まさお（マサ）の日記
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">FFmpegAPIをVisualStudioで利用する方法</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-09-22T15:07:11+09:00">9月 22, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。</p>
+<h1 id="環境">環境</h1>
+<ul>
+<li>Windows11</li>
+<li>VisualStudio2022</li>
+</ul>
+<h1 id="手順">手順</h1>
+<h2 id="1ffmpeg-master-latest-win64-lgpl-sharedzipをダウンロードする">1.「ffmpeg-master-latest-win64-lgpl-shared.zip」をダウンロードする</h2>
+<p><a href="https://www.ffmpeg.org/" target="_blank">&lsquo;FFmpegの公式サイト&rsquo;</a>の<a href="https://www.ffmpeg.org/download.html#build-windows" target="_blank">&lsquo;Download FFmpeg&rsquo;</a>へ行くと下図の様なページが表示される。
+<img src="df.png" alt="&lsquo;dd&rsquo;">
+Windowsのマークをクリックし、「Windows builds by BtbN」 を選択する。</p>
+<p>すると、下図のようなページが表示される。
+<img src="gh.png" alt="&lsquo;ddee&rsquo;">
+「Show all 50 assets」をクリックする。
+するとたくさんのファイルが表示される。その中の
+「ffmpeg-master-latest-win64-lgpl-shared.zip」をクリックする。</p>
+<p>すると「ffmpeg-master-latest-win64-lgpl-shared.zip」がダウンロードされる。</p>
+<blockquote>
+<p><strong>tip</strong>:今回はライセンス的に色々安心できる「ffmpeg-master-latest-win64-lgpl-shared.zip」を扱いますが、FFmpegを商用利用する気がない場合は「ffmpeg-master-latest-win64-gpl-shared.zip」のダウンロードをオススメします。lgpl版より豊富なエンコーダー,デコーダーが利用できますよ。</p>
+</blockquote>
+<h2 id="2-ffmpegのパスを通す">2. FFmpegのパスを通す</h2>
+<p>先ほどダウンロードした
+「ffmpeg-master-latest-win64-lgpl-shared.zip」
+を任意のフォルダへ展開する。
+今回自分は以下のディレクトリへ展開した。</p>
+<div>
+    <div class="codeblock--content"><pre tabindex="0"><code>C:\Users\%USERNAME%\OneDrive\デスクトップ\ffmpeg-master-latest-win64-lgpl-shared</code></pre>
+    </div>
+  </div><p>展開後、ユーザー環境変数へ新規変数の登録をオススメする。（VisualStudioでの利用時に役立つため。）
+今回自分は以下のようなユーザー環境変数を新規に登録した。</p>
+<div>
+    <div class="codeblock--content"><pre tabindex="0"><code>変数名：FFMPEG_PATH
+変数値：C:\Users\%USERNAME%\OneDrive\デスクトップ\ffmpeg-master-latest-win64-lgpl-shared\bin</code></pre>
+    </div>
+  </div><p>お次は
+ユーザー環境変数のPathへ先ほど登録した変数を追加する。</p>
+<div>
+    <div class="codeblock--content"><pre tabindex="0"><code>%FFMPEG_PATH%</code></pre>
+    </div>
+  </div><p>と登録すればOK。</p>
+<p>最後に本当にパスが通っているのか確認する。
+コマンドラインを立ち上げ、下記を実行させる。</p>
+<div>
+    <div class="codeblock--content"><pre tabindex="0"><code>ffmpeg -h</code></pre>
+    </div>
+  </div><p>パスが正しく通っている場合はいろいろなコマンドの説明が表示される。</p>
+<h2 id="3-visualstudioでcのプロジェクトを作る">3. VisualStudioでC++のプロジェクトを作る</h2>
+<p>VisualStudioを起動し、C++の「コンソールアプリ」のテンプレートを選択して新しいプロジェクトを作成する。
+プロジェクト名は何でもいいです。今回自分は「FFmpeg_Test」とした。</p>
+<h2 id="4-プロジェクトのプロパティを設定する">4. プロジェクトのプロパティを設定する</h2>
+<p>プロジェクトの作成後、下図の赤枠の
+「FFmpeg_Test」を右クリックし、コンテキストメニュー欄の「プロパティ」をクリックする。
+<img src="pro1.png" alt=""></p>
+<p>「FFmpeg_Testのプロパティページ」が表示された後、下図の赤枠の「C/C++」をクリックし、「追加のインクルードディレクトリ」をクリックする。</p>
+<p><img src="pro2.png" alt=""></p>
+<p>「追加のインクルードディレクトリ」へ下記を入力する。</p>
+<div>
+    <div class="codeblock--content"><pre tabindex="0"><code>$(FFMPEG_PATH)\include</code></pre>
+    </div>
+  </div><p>次に下図の赤枠の「リンカー」をクリックし、「追加のライブラリディレクトリ」をクリックする。
+<img src="pro3.png" alt=""></p>
+<p>「追加のライブラリディレクトリ」へ下記を入力する。</p>
+<div>
+    <div class="codeblock--content"><pre tabindex="0"><code>$(FFMPEG_PATH)\lib</code></pre>
+    </div>
+  </div><p>次に下図の赤枠の「入力」をクリックし、「追加の依存ファイル」をクリックする。
+<img src="pro4.png" alt="">
+「追加の依存ファイル」へ下記を入力する。</p>
+<div>
+    <div class="codeblock--content"><pre tabindex="0"><code>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</code></pre>
+    </div>
+  </div><p>以上の設定が完了した後は「FFmpeg_Testのプロパティページ」の下部にある「適応(A)」をクリックし、設定を適応させる。</p>
+<h2 id="4テストプログラムを実行する">4.テストプログラムを実行する</h2>
+<p>「FFmpeg_Test」プロジェクト内の「ソースファイル」内にある「FFmpeg_Test.cpp」へ下記を入力する。</p>
+<div><div class="codeblock--name">FFmpeg_Test.cpp</div>
+    <div class="codeblock--content"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">extern</span> <span style="color:#e6db74">&#34;C&#34;</span> {
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;libavdevice/avdevice.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#include&lt;iostream&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(<span style="color:#66d9ef">void</span>) {
+</span></span><span style="display:flex;"><span>    avdevice_register_all();
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;FFmpeg API&#34;</span> <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+    </div>
+  </div><p>入力後、「ローカルWindowsデバッカー」もしくはF5キーを押して実行させる。</p>
+<div><div class="codeblock--name">実行結果</div>
+    <div class="codeblock--content"><pre tabindex="0"><code>FFmpeg API</code></pre>
+    </div>
+  </div><p>と表示されていたらOK。問題なくFFmpegAPIが利用できています。もしエラーが発生した場合はパスが通っているか、プロジェクトのプロパティを正しく設定しているか、などを確認してみてください。</p>
+<h2 id="5使いこなしていくには">5.使いこなしていくには</h2>
+<p><a href="https://www.ffmpeg.org/doxygen/trunk/examples.html" target="_blank">公式の参考プログラム</a>を実行したり、ネットでいろいろな記事を見てFFmpegAPIを使いこなしていきましょう。公式のドキュメントがやはり参考になります。</p><ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/ffmpeg/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">FFmpeg</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/visualstudio/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">VisualStudio</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/windows/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Windows</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/c&#43;&#43;/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">C&#43;&#43;</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:14440/" >
+    &copy;  まさお（マサ）の日記 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
