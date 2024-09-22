@@ -116,4 +116,4 @@ FFmpeg API
 と表示されていたらOK。問題なくFFmpegAPIが利用できています。もしエラーが発生した場合はパスが通っているか、プロジェクトのプロパティを正しく設定しているか、などを確認してみてください。
 
 ## 5.使いこなしていくには
-[公式の参考プログラム](https://www.ffmpeg.org/doxygen/trunk/examples.html)を実行したり、ネットでいろいろな記事を見てFFmpegAPIを使いこなしていきましょう。公式のドキュメントがやはり参考になります。
+[公式の参考プログラム](https://www.ffmpeg.org/doxygen/trunk/examples.html)を実行したり、ネットでいろいろな記事を見てFFmpegAPIを使いこなしていきましょう。公式のドキュメントがやはり参考になります。 
