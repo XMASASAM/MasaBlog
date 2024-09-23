@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on まさお（マサ）の日記</title>
-    <link>http://localhost:4059/categories/</link>
+    <link>http://localhost:10916/categories/</link>
     <description>Recent content in Categories on まさお（マサ）の日記</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <atom:link href="http://localhost:4059/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:10916/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

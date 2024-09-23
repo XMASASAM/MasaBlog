@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C&#43;&#43; on まさお（マサ）の日記</title>
-    <link>http://localhost:4059/tags/c&#43;&#43;/</link>
+    <link>http://localhost:10916/tags/c&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on まさお（マサ）の日記</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 22 Sep 2024 15:07:11 +0900</lastBuildDate>
-    <atom:link href="http://localhost:4059/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:10916/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FFmpegAPIをVisualStudioで利用する方法</title>
-      <link>http://localhost:4059/posts/post-1/</link>
+      <link>http://localhost:10916/posts/post-1/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:4059/posts/post-1/</guid>
+      <guid>http://localhost:10916/posts/post-1/</guid>
       <description>&lt;p&gt;最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。&lt;/p&gt;</description>
     </item>
   </channel>
