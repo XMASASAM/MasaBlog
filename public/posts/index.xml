@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on まさお（マサ）の日記</title>
-    <link>http://localhost:10916/posts/</link>
+    <link>http://localhost:11445/posts/</link>
     <description>Recent content in Posts on まさお（マサ）の日記</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 24 Sep 2024 00:34:04 +0900</lastBuildDate>
-    <atom:link href="http://localhost:10916/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Sep 2024 01:20:27 +0900</lastBuildDate>
+    <atom:link href="http://localhost:11445/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C#からC&#43;&#43;のDLLを呼び出すときに追加する設定</title>
+      <link>http://localhost:11445/posts/post-3/</link>
+      <pubDate>Tue, 24 Sep 2024 01:20:27 +0900</pubDate>
+      <guid>http://localhost:11445/posts/post-3/</guid>
+      <description>&lt;p&gt;C#のプロジェクトからC++のプロジェクトを呼び出すときの設定を書いておく。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>WinUIをexeファイルから実行できるように設定する</title>
-      <link>http://localhost:10916/posts/post-2/</link>
+      <link>http://localhost:11445/posts/post-2/</link>
       <pubDate>Tue, 24 Sep 2024 00:34:04 +0900</pubDate>
-      <guid>http://localhost:10916/posts/post-2/</guid>
-      <description>&lt;p&gt;WinUIはデフォルトの設定ではexeファイルから起動されません。そこで、いろいろな設定を加えます。&lt;/p&gt;</description>
+      <guid>http://localhost:11445/posts/post-2/</guid>
+      <description>&lt;p&gt;WinUIはデフォルトの設定でビルドを行ってもexeファイルから直接起動できません。そこで、いろいろな設定を加えます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>FFmpegAPIをVisualStudioで利用する方法</title>
-      <link>http://localhost:10916/posts/post-1/</link>
+      <link>http://localhost:11445/posts/post-1/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:10916/posts/post-1/</guid>
+      <guid>http://localhost:11445/posts/post-1/</guid>
       <description>&lt;p&gt;最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。&lt;/p&gt;</description>
     </item>
   </channel>

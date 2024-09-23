@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on まさお（マサ）の日記</title>
+    <link>http://localhost:11445/tags/c%23/</link>
+    <description>Recent content in C# on まさお（マサ）の日記</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 24 Sep 2024 01:20:27 +0900</lastBuildDate>
+    <atom:link href="http://localhost:11445/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C#からC&#43;&#43;のDLLを呼び出すときに追加する設定</title>
+      <link>http://localhost:11445/posts/post-3/</link>
+      <pubDate>Tue, 24 Sep 2024 01:20:27 +0900</pubDate>
+      <guid>http://localhost:11445/posts/post-3/</guid>
+      <description>&lt;p&gt;C#のプロジェクトからC++のプロジェクトを呼び出すときの設定を書いておく。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

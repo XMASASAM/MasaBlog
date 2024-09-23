@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on まさお（マサ）の日記</title>
-    <link>http://localhost:10916/tags/</link>
+    <link>http://localhost:11445/tags/</link>
     <description>Recent content in Tags on まさお（マサ）の日記</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 24 Sep 2024 00:34:04 +0900</lastBuildDate>
-    <atom:link href="http://localhost:10916/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:11445/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WinUI</title>
-      <link>http://localhost:10916/tags/winui/</link>
+      <link>http://localhost:11445/tags/winui/</link>
       <pubDate>Tue, 24 Sep 2024 00:34:04 +0900</pubDate>
-      <guid>http://localhost:10916/tags/winui/</guid>
+      <guid>http://localhost:11445/tags/winui/</guid>
       <description></description>
     </item>
     <item>
       <title>C&#43;&#43;</title>
-      <link>http://localhost:10916/tags/c&#43;&#43;/</link>
+      <link>http://localhost:11445/tags/c&#43;&#43;/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:10916/tags/c&#43;&#43;/</guid>
+      <guid>http://localhost:11445/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>FFmpeg</title>
-      <link>http://localhost:10916/tags/ffmpeg/</link>
+      <link>http://localhost:11445/tags/ffmpeg/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:10916/tags/ffmpeg/</guid>
+      <guid>http://localhost:11445/tags/ffmpeg/</guid>
       <description></description>
     </item>
     <item>
       <title>VisualStudio</title>
-      <link>http://localhost:10916/tags/visualstudio/</link>
+      <link>http://localhost:11445/tags/visualstudio/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:10916/tags/visualstudio/</guid>
+      <guid>http://localhost:11445/tags/visualstudio/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:10916/tags/windows/</link>
+      <link>http://localhost:11445/tags/windows/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:10916/tags/windows/</guid>
+      <guid>http://localhost:11445/tags/windows/</guid>
       <description></description>
     </item>
   </channel>
