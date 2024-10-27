@@ -2,31 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on まさお（マサ）の日記</title>
-    <link>http://localhost:11445/</link>
+    <link>http://localhost:6699/</link>
     <description>Recent content in Home on まさお（マサ）の日記</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 24 Sep 2024 01:20:27 +0900</lastBuildDate>
-    <atom:link href="http://localhost:11445/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2024 01:53:58 +0900</lastBuildDate>
+    <atom:link href="http://localhost:6699/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BlazorServerでComponentsフォルダー内でしかTwoWayBindingが効かない理由</title>
+      <link>http://localhost:6699/posts/post-6/</link>
+      <pubDate>Mon, 28 Oct 2024 01:53:58 +0900</pubDate>
+      <guid>http://localhost:6699/posts/post-6/</guid>
+      <description>&lt;p&gt;BlazorWebAppテンプレートから生成されるサーバー側のプロジェクトではComponentsフォルダー以外の.razorでは@bind:get,@bind:setが有効になりません。その理由は&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugoの使い方メモ</title>
+      <link>http://localhost:6699/posts/post-5/</link>
+      <pubDate>Mon, 28 Oct 2024 01:41:51 +0900</pubDate>
+      <guid>http://localhost:6699/posts/post-5/</guid>
+      <description>&lt;p&gt;Hugoの使い方をメモしていく。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ReactivePropertyとR3のパフォーマンス比較</title>
+      <link>http://localhost:6699/posts/post-4/</link>
+      <pubDate>Sun, 27 Oct 2024 23:18:38 +0900</pubDate>
+      <guid>http://localhost:6699/posts/post-4/</guid>
+      <description>&lt;p&gt;MVVMを意識してコードを書くときにとても役立つReactivePropertyですが、最近その最新版としてR3なるものが出たようです。そこで、パフォーマンスを測り記録します。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>C#からC&#43;&#43;のDLLを呼び出すときの準備</title>
-      <link>http://localhost:11445/posts/post-3/</link>
+      <link>http://localhost:6699/posts/post-3/</link>
       <pubDate>Tue, 24 Sep 2024 01:20:27 +0900</pubDate>
-      <guid>http://localhost:11445/posts/post-3/</guid>
+      <guid>http://localhost:6699/posts/post-3/</guid>
       <description>&lt;p&gt;C#のプロジェクトからC++のプロジェクトを呼び出すときの準備を書いておく。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WinUIをexeファイルから実行できるように設定する</title>
-      <link>http://localhost:11445/posts/post-2/</link>
+      <link>http://localhost:6699/posts/post-2/</link>
       <pubDate>Tue, 24 Sep 2024 00:34:04 +0900</pubDate>
-      <guid>http://localhost:11445/posts/post-2/</guid>
+      <guid>http://localhost:6699/posts/post-2/</guid>
       <description>&lt;p&gt;WinUIはデフォルトの設定でビルドを行ってもexeファイルから直接起動できません。そこで、いろいろな設定を加えます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>FFmpegAPIをVisualStudioで利用する方法</title>
-      <link>http://localhost:11445/posts/post-1/</link>
+      <link>http://localhost:6699/posts/post-1/</link>
       <pubDate>Sun, 22 Sep 2024 15:07:11 +0900</pubDate>
-      <guid>http://localhost:11445/posts/post-1/</guid>
+      <guid>http://localhost:6699/posts/post-1/</guid>
       <description>&lt;p&gt;最強のマルチメディアソフトである「FFmpeg」をVisualStudioで利用する方法を書きます。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -4,3 +4,6 @@ title = 'まさお（マサ）の日記'
 theme = 'ananke'
 paginate = 5
 DefaultContentLanguage = "ja"
+
+[params]
+	custom_css = ["custom.css"]

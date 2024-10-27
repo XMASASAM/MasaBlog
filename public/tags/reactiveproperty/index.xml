@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C# on まさお（マサ）の日記</title>
-    <link>http://localhost:6699/tags/c%23/</link>
-    <description>Recent content in C# on まさお（マサ）の日記</description>
+    <title>ReactiveProperty on まさお（マサ）の日記</title>
+    <link>http://localhost:6699/tags/reactiveproperty/</link>
+    <description>Recent content in ReactiveProperty on まさお（マサ）の日記</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 27 Oct 2024 23:18:38 +0900</lastBuildDate>
-    <atom:link href="http://localhost:6699/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:6699/tags/reactiveproperty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ReactivePropertyとR3のパフォーマンス比較</title>
       <link>http://localhost:6699/posts/post-4/</link>
       <pubDate>Sun, 27 Oct 2024 23:18:38 +0900</pubDate>
       <guid>http://localhost:6699/posts/post-4/</guid>
       <description>&lt;p&gt;MVVMを意識してコードを書くときにとても役立つReactivePropertyですが、最近その最新版としてR3なるものが出たようです。そこで、パフォーマンスを測り記録します。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>C#からC&#43;&#43;のDLLを呼び出すときの準備</title>
-      <link>http://localhost:6699/posts/post-3/</link>
-      <pubDate>Tue, 24 Sep 2024 01:20:27 +0900</pubDate>
-      <guid>http://localhost:6699/posts/post-3/</guid>
-      <description>&lt;p&gt;C#のプロジェクトからC++のプロジェクトを呼び出すときの準備を書いておく。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

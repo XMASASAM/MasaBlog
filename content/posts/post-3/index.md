@@ -23,7 +23,7 @@ C#のプロジェクトからC++のプロジェクトを呼び出すときの準
         ...
         <!--以下を追加 -->
 	    <Content Include="$(SolutionDir)$(Platform)\$(Configuration)\C++のプロジェクト名.dll">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	    </Content>
         <!--以上を追加 -->
     </ItemGroup>

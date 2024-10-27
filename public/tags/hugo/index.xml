@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on まさお（マサ）の日記</title>
+    <link>http://localhost:6699/tags/hugo/</link>
+    <description>Recent content in Hugo on まさお（マサ）の日記</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 28 Oct 2024 01:41:51 +0900</lastBuildDate>
+    <atom:link href="http://localhost:6699/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoの使い方メモ</title>
+      <link>http://localhost:6699/posts/post-5/</link>
+      <pubDate>Mon, 28 Oct 2024 01:41:51 +0900</pubDate>
+      <guid>http://localhost:6699/posts/post-5/</guid>
+      <description>&lt;p&gt;Hugoの使い方をメモしていく。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
